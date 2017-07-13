@@ -1,4 +1,4 @@
-package com.epam.lab.lab_04_homework.concoleMenu;
+package com.epam.lab.lab_04_homework.consoleMenu;
 
 import java.util.HashMap;
 import java.util.Map;
