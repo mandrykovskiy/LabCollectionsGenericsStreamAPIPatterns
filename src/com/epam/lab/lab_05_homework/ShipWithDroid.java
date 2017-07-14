@@ -1,15 +1,21 @@
 package com.epam.lab.lab_05_homework;
 
+/*Write your generic class – ship with droids. You can put and get droids from ship.
+Try to implement it using wildcards.
+*/
+
 import java.util.LinkedList;
+import java.util.List;
 
 public class ShipWithDroid<T extends Droid> {
-     public LinkedList<T> droids;
+    public List<? extends Droid> list;
 
-    public ShipWithDroid(LinkedList<T> droids) {
-        this.droids = droids;
+    public ShipWithDroid() {
+        list=new LinkedList<>();
+    }
+    public  void putDroids(Droid droid){
+        list.add(<? extends Droid> droid);
     }
 
-//    public void putDroid(ShipWithDroid shipWithDroid, Droid<? extends Droid> droid){
-//
-//    }
+
 }
