@@ -1,9 +1,9 @@
-package com.epam.lab.lab_05_homework;
+package com.epam.lab.lab_05_homework.generic_class;
 
-class RepairDroid extends Droid {
-    int repairPower;
+public class RepairDroid extends Droid {
+    public int repairPower;
 
-    RepairDroid(int hp, int repairPower) {
+    public RepairDroid(int hp, int repairPower) {
         super(hp);
         this.repairPower = repairPower;
     }

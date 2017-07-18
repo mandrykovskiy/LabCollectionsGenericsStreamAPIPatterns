@@ -1,9 +1,9 @@
-package com.epam.lab.lab_05_homework;
+package com.epam.lab.lab_05_homework.generic_class;
 
-class DefenceDriod extends Droid {
-    private int defence;
+public class DefenceDriod extends Droid {
+    public int defence;
 
-    DefenceDriod(int hp, int defence) {
+    public DefenceDriod(int hp, int defence) {
         super(hp);
         this.defence = defence;
     }

@@ -1,4 +1,4 @@
-package com.epam.lab.lab_05_homework;
+package com.epam.lab.lab_05_homework.generic_class;
 
 public class Droid {
     public int hp;
